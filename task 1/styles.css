@@ -1,0 +1,19 @@
+*,
+::after,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.span__id,
+.span__user,
+.span__title,
+.span__body {
+  font-size: 18px;
+}
+
+.span__id,
+.span__user {
+  font-weight: 900;
+}
