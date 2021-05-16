@@ -46,3 +46,6 @@ const updateObjectInArray = function (array, key, newKeyValue) {
     });
     return newArray;
 };
+console.log(arrayOfObjects);
+console.log(updateObjectInArray(arrayOfObjects, "name", "Kevin Mitnick"));
+console.log(updateObjectInArray(arrayOfObjects, "speed", "24.3"));

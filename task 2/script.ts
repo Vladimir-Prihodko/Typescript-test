@@ -58,4 +58,6 @@ const updateObjectInArray = function <ObjectShape>(array: object[], key: string,
     return newArray;
 }
 
-
+console.log(arrayOfObjects);
+console.log(updateObjectInArray<ObjectShape>(arrayOfObjects, "name", "Kevin Mitnick"));
+console.log(updateObjectInArray<ObjectShape>(arrayOfObjects, "speed", "24.3"));
