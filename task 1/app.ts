@@ -32,4 +32,5 @@ const renderFunction = async function (): Promise<void> {
     }
 }
 
+
 renderFunction();
